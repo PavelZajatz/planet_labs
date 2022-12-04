@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "__daily_email_enabled": {
+      "type": "boolean"
+    },
+    "_links": {
+      "type": "object",
+      "properties": {
+        "_self": {
+          "type": "string"
+        },
+        "thumbnail": {
+          "type": "string"
+        }
+      }
+    },
+    "created": {
+      "type": "string"
+    },
+    "filter": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "last_executed": {
+      "type": ["string", "null"]
+    },
+    "name": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "created",
+    "filter",
+    "id",
+    "last_executed",
+    "name",
+    "updated"
+  ]
+}
