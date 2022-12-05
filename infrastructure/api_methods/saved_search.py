@@ -1,7 +1,7 @@
 import requests
 import uuid
 
-from constant_names import SAVED_SEARCH_NAME, ItemTypes
+from constants import SAVED_SEARCH_NAME, ItemTypes
 from helpers.help_methods import FileMethods
 from helpers.schema_validate import ValidateResponse
 from infrastructure.data.saved_search.filters.create_saved_search_filters import SearchFilters

@@ -1,6 +1,6 @@
 import pytest
 
-from constant_names import SAVED_SEARCH_NAME
+from constants import SAVED_SEARCH_NAME
 from infrastructure.api_methods.saved_search import SavedSearchesMethods
 
 
