@@ -6,7 +6,7 @@
 3. Install requirements.txt
 - pip install -r requirements.txt
 4. Install Allure for reporting. Instruction can be found here: https://docs.qameta.io/allure-report/
-5. Install PyTets as default runner(instruction for PyCharm IDE )
+5. Install PyTest as default runner(instruction for PyCharm IDE )
 - PyCharm - Preferences - Tools - Python integrated tools - default test runner: pytest
 6. Add local file with API key to the root dir(For Demo purpose file already added)
 - create file key_settings.py and write down API keys
